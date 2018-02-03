@@ -1,0 +1,5 @@
+# Notes
+
+/rest/api/1.0/projects/{projectKey}/repos/{repositorySlug}/pull-requests/{pullRequestId}/activities
+Contains all the comments and everything one might need to sort pull requests
+

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bucketlist",
+  "description": "Helps you manage bitbucket pull requests.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["bg.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "https://git.int.pason.com/"
+  ]
+}
